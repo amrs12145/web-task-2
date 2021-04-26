@@ -1,0 +1,79 @@
+
+nav
+{
+    background-color: #000;
+}
+nav img
+{
+    width: 80px;
+}
+nav a
+{
+    color: #fff;
+    font-size: 46px;
+    font-family: fantasy;
+    text-decoration: none;
+}
+nav ul
+{
+    display: inline-block;
+    color: #fff;
+}
+nav li
+{
+    display: inline-block;
+}
+nav span
+{
+    float: right;
+    color: white;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.container
+{
+    background-image: url("assets/3.jpg");
+    height: 450px;
+    background-size: cover;
+}
+
+.container div
+{
+    position: absolute;
+    background-color: #ffffff87;
+    padding: 22px;
+    margin: 100px 10px 0px 50px;
+}
+.container h2
+{
+    color: #e23d04;
+    font-size: 34px;
+    font-family: fantasy;
+}
+.container p
+{
+    letter-spacing: 1.3px;
+    font-family: sans-serif;
+}
+
+
+section
+{
+    display: flex;
+}
+section div
+{
+
+}
+section img
+{
+    margin: 35px 40px;
+    width: 350px;
+    height: 150px;
+}
+section img:hover
+{
+    filter: blur(1px);
+    cursor: crosshair;
+}
